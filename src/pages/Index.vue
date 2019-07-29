@@ -1,6 +1,24 @@
 <template>
-  <q-page class="flex flex-center">
-    <img alt="Quasar logo" src="~assets/quasar-logo-full.svg">
+  <q-page
+    padding
+  >
+    <div class="row">
+      <q-card
+        square
+        bordered
+        flat
+        class="col-5"
+      >
+        <q-card-section
+          class="text-bold text-header"
+        >
+          DEFAULT PANEL
+        </q-card-section>
+        <q-card-section>
+          I am the panel content
+        </q-card-section>
+      </q-card>
+    </div>
   </q-page>
 </template>
 
