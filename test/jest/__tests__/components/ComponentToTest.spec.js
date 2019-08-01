@@ -40,7 +40,7 @@ describe('Sample Testing', () => {
   })
 
   it('sets the search value as the passed prop', () => {
-    expect(wrapper.vm.search).toBe('2')
+    expect(wrapper.vm.search).toBe(searchModel)
   })
 
   it('#emitSearch', () => {
